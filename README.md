@@ -6,8 +6,8 @@ This repository contains GoLang module to create somehow a custom azure pipline 
 
 This module make use of core azure CLU rest apis to implement the above mentioned purpose. GoLang "http" package is the heart of this module which is mainly doing the stuff. The flow of the executed golang module is as follows:
 
-* emports the CLU model along with intents,entities and datasets from one environment.
-* export it to the target environment.
+* export the CLU model along with intents,entities and datasets from one environment.
+* import it to the target environment.
 * train the model with the associated dataset.
 * deploy the trained model onto the target environment
 
